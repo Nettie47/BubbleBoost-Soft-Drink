@@ -1,0 +1,87 @@
+/* First Bootstrap Project 13/17/2025 */
+
+/* Font-family: "Chewy", system-ui; */
+
+
+html, body {
+	height: 100%;
+	line-height: 4;
+
+}
+
+
+header.hero-section {
+	background-image: url("images/bubble_hero.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	padding: 10em 0;
+}
+
+
+header.hero-section h1{
+	Font-family: "Chewy", system-ui;
+	font-size: 5em;
+	color: white;
+	text-shadow: black 2px 1px 3px;
+}
+
+header.hero-section p {
+	color: white;
+	font-size: 1.5em;
+	text-shadow: black 2px 1px 3px;
+	font-family: "Arial Black", sans-serif;
+}
+
+header.hero-section a {
+	font-size: 1.2em;
+	background-color: darkred;
+	border: none;
+	padding: 10px;
+}
+
+header.hero-section a:hover {
+	font-size: 1.2em;
+	background-color: greenyellow;
+	border: none;
+	color: black;
+}
+
+section {
+	background-color: lightgreen;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+section#features h2 {
+	margin-bottom: 1.5em;
+}
+
+div.card img {
+	height: 260px;
+}
+
+div.card {
+	background-color: lightgrey;
+}
+
+div.card-body {
+	background-image: radial-gradient(lightgrey, slategrey);
+}
+
+section.cta-section a {
+	font-size: 1.2em;
+	background-color: darkred;
+}
+
+section.cta-section a:hover {
+	font-size: 1.2em;
+	background-color: lightgray;
+	background-border: black;
+	color: black;
+}
+
+
+footer {
+	background-image: radial-gradient(lightgrey, slategrey);
+}
